@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "CompanyManMobile",
+    "slug": "CompanyManMobile",
+    "version": "1.0.0",
+    "icon": "./assets/images/icon.png",
+    "scheme": "companymanmobile",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.CompanyManMobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.CompanyManMobile"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Company Man",
+      "shortName": "CompanyMan",
+      "description": "Restaurant Management System",
+      "themeColor": "#306eff",
+      "backgroundColor": "#ffffff",
+      "display": "standalone",
+      "scope": "/",
+      "startUrl": "/"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ffe4bdfc-c3a5-435b-a570-5f6e1337ab5f"
+      }
+    }
+  }
+}
